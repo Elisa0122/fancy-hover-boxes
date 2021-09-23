@@ -36,12 +36,16 @@ section {
 .hover-box:hover h2,
 .hover-box:focus h2 {
   bottom: 0;
+  filter: grayscale(0);
+  transform: scale(1.1);
 }
 
 .hover-box img {
   filter: grayscale(100%);
+  transition: all .2s linear;
 }
- img {
+
+img {
    display: block;
    width: 100%;
  }
